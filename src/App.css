@@ -7,12 +7,12 @@
 }
 
 /* --- Navigation bar --- */
-#navbar {
+/* #navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 40px;
-}
+} */
 
 #navbar > a,
 #navbar > a:link,
@@ -21,6 +21,29 @@
 #navbar > a:active{
   color: rgb(56, 56, 56);
   text-decoration : none;
+}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 16.85%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+.tabcontent {
+  color: rgb(56, 56, 56);
+  /* display: none; */
+  padding: 20px 20px;
+  /* height: 100%; */
 }
 
 /* --- Sidebar --- */
@@ -61,10 +84,9 @@ img#picture-self {
 /* --- Page Container --- */
 
 .page-container {
-  width: 75vw;
+  width: 80vw;
   height: 100vh;
-  margin: 20px;
-  margin-left: 22vw;
+  margin-left: 20vw;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -73,14 +95,16 @@ img#picture-self {
 /* --- Home --- */
 #home {
   height: 100vh;
-  margin-top: 15%;
+  padding-top: 15%;
   text-align: center;
+  background-color: green;
 }
 
 /* --- About Me --- */
 #about-me {
   height: 100vh;
   text-align: center;
+  background-color: aqua;
 }
 
  /* --- Projects --- */
@@ -100,6 +124,8 @@ img#picture-self {
   height: 100vh;
   text-align: center;
 }
+
+
 
 /* .App-logo {
   animation: App-logo-spin infinite 20s linear;

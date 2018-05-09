@@ -9,11 +9,11 @@ class Home extends Component {
 
   render() {
     return (
-      <div id="home">
-        <header>
+      <div id="home" className="tabcontent">
+        
           <h1>Carolina Restrepo</h1>
           <h3>Full Stack Web Developer</h3>
-        </header>
+
       </div>
     );
   }

@@ -10,18 +10,38 @@ import Skills from "./components/Skills";
 import ArtGallery from "./components/ArtGallery";
 
 class App extends Component {
+
+  // handleClick = e => {
+  //   // e.preventDefault();
+  //   var style;
+  //   console.log("target", e.target.name)
+  //   if(e.target.name === "Home") {
+  //     return style = {background: "#555"} ? style ={background: "green"} : style = {background: "#555"} ;
+  //   } else if (e.target.name === "about-me") {
+  //     return style = {background: "aqua"};
+  //   } else {
+  //     return style = {background: "#555"}
+  //   }
+
+  // }
+
   render() {
+    const { handleClick } = this;
+    let style;
     return (
       <div className="App">
         <Sidebar />
 
         <div className="page-container">
           <nav id="navbar">
-            <Link to="/"> Home</Link>
-            <Link to="/about-me"> About Me</Link>
-            <Link to="/projects"> Projects</Link>
-            <Link to="/skills"> Skills</Link>
-            <Link to="/art-gallery"> Art Gallery</Link>
+            <Link to="/" className="tablink" name="home" onClick={(e) => {
+          
+              style = {backgroundColor: "green"};
+            }} > Home </Link>
+            <Link to="/about-me" className="tablink" name="about-me" onClick={ handleClick }>About Me</Link>
+            <Link to="/projects" className="tablink" onClick={ handleClick }> Projects </Link>
+            <Link to="/skills" className="tablink" onClick={ handleClick }> Skills</Link>
+            <Link to="/art-gallery" className="tablink" onClick={ handleClick }> Art Gallery</Link>
           </nav>
 
           <Switch className="routes">

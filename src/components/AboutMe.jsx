@@ -3,7 +3,7 @@ import React, { Component, Fragment } from "react";
 class AboutMe extends Component {
   render() {
     return (
-      <div id="about-me">
+      <div id="about-me" className="tabcontent">
         <h2> About Me </h2>
 
         <p className="personal-pitch">
