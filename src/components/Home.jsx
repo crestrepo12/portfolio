@@ -9,7 +9,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div id="home" className="tabcontent">
+      <div id="home" className="content">
         
           <h1>Carolina Restrepo</h1>
           <h3>Full Stack Web Developer</h3>
