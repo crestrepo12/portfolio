@@ -87,7 +87,7 @@ img#picture-self {
 /* --- Home --- */
 #home {
   height: 100vh;
-  padding-top: 15%;
+  padding-top: 20%;
   text-align: center;
 }
 
@@ -107,7 +107,23 @@ img#picture-self {
  #skills {
   height: 100vh;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
+
+#skills > #icon-container {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.icons {
+  width: 80px;
+  margin: 40px
+}
+
 
 /* --- Art Gallery --- */
 #art-gallery {
