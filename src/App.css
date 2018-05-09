@@ -1,35 +1,103 @@
+/* --- Overall Container for the App --- */
 .App {
   margin: 0;
   height: 100vh;
+  width: 100vw;
+  display: inline-flex;
+}
+
+/* --- Navigation bar --- */
+#navbar {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+#navbar > a,
+#navbar > a:link,
+#navbar > a:visited,
+#navbar > a:hover,
+#navbar > a:active{
+  color: rgb(56, 56, 56);
+  text-decoration : none;
 }
 
 /* --- Sidebar --- */
 #sidebar {
-  background-color: blueviolet;
-  width: 25%;
+  background-image: url(./images/colorful-puzzle.jpg);
+  background-position: center;
+  width: 20%;
+  position: fixed;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 img#picture-self {
-  width: 90%;
+  width: 60%;
   margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: 20px;
+}
+
+#sidebar > .contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+#sidebar > .contacts > a,
+#sidebar > .contacts > a:link,
+#sidebar > .contacts > a:visited,
+#sidebar > .contacts > a:hover {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+
+/* --- Page Container --- */
+
+.page-container {
+  width: 75vw;
+  height: 100vh;
+  margin: 20px;
+  margin-left: 22vw;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
 }
 
 /* --- Home --- */
-
 #home {
-  margin: 0 auto;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  height: 100vh;
+  margin-top: 15%;
+  text-align: center;
 }
 
-#home > header {
+/* --- About Me --- */
+#about-me {
+  height: 100vh;
+  text-align: center;
+}
+
+ /* --- Projects --- */
+#projects {
+  height: 100vh;
+  text-align: center;
+}
+
+ /* --- Skills --- */
+ #skills {
+  height: 100vh;
+  text-align: center;
+}
+
+/* --- Art Gallery --- */
+#art-gallery {
+  height: 100vh;
   text-align: center;
 }
 
