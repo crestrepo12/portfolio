@@ -4,7 +4,7 @@ class AboutMe extends Component {
   render() {
     return (
       <div id="about-me" className="content">
-        <h2> About Me </h2>
+        <h1> About Me </h1>
 
         <p className="personal-pitch">
           I am a Full Stack Web Developer at C4Q. I’ve worked in the social
