@@ -7,24 +7,17 @@
 }
 
 /* --- Navigation bar --- */
-/* #navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 40px;
-} */
-
 #navbar > a,
 #navbar > a:link,
 #navbar > a:visited,
 #navbar > a:hover,
 #navbar > a:active{
-  color: rgb(56, 56, 56);
+  color: rgb(117, 117, 117);
   text-decoration : none;
 }
 
 .tablink {
-  background-color: #555;
+  background-color: darkgrey;
   color: white;
   float: left;
   border: none;
@@ -36,14 +29,13 @@
 }
 
 .tablink:hover {
-  background-color: #777;
+  color: white !important;
+  background-color: rgba(163, 163, 163, 0.616) !important;
 }
 
 .tabcontent {
-  color: rgb(56, 56, 56);
-  /* display: none; */
+  color: rgb(117, 117, 117);
   padding: 20px 20px;
-  /* height: 100%; */
 }
 
 /* --- Sidebar --- */
@@ -97,14 +89,12 @@ img#picture-self {
   height: 100vh;
   padding-top: 15%;
   text-align: center;
-  background-color: green;
 }
 
 /* --- About Me --- */
 #about-me {
   height: 100vh;
   text-align: center;
-  background-color: aqua;
 }
 
  /* --- Projects --- */
@@ -124,30 +114,3 @@ img#picture-self {
   height: 100vh;
   text-align: center;
 }
-
-
-
-/* .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-} */

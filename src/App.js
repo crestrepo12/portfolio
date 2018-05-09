@@ -11,37 +11,20 @@ import ArtGallery from "./components/ArtGallery";
 
 class App extends Component {
 
-  // handleClick = e => {
-  //   // e.preventDefault();
-  //   var style;
-  //   console.log("target", e.target.name)
-  //   if(e.target.name === "Home") {
-  //     return style = {background: "#555"} ? style ={background: "green"} : style = {background: "#555"} ;
-  //   } else if (e.target.name === "about-me") {
-  //     return style = {background: "aqua"};
-  //   } else {
-  //     return style = {background: "#555"}
-  //   }
-
-  // }
-
   render() {
     const { handleClick } = this;
-    let style;
+    
     return (
       <div className="App">
         <Sidebar />
 
         <div className="page-container">
           <nav id="navbar">
-            <Link to="/" className="tablink" name="home" onClick={(e) => {
-          
-              style = {backgroundColor: "green"};
-            }} > Home </Link>
-            <Link to="/about-me" className="tablink" name="about-me" onClick={ handleClick }>About Me</Link>
-            <Link to="/projects" className="tablink" onClick={ handleClick }> Projects </Link>
-            <Link to="/skills" className="tablink" onClick={ handleClick }> Skills</Link>
-            <Link to="/art-gallery" className="tablink" onClick={ handleClick }> Art Gallery</Link>
+            <Link to="/" className="tablink" name="home" style={{backgroundColor: "rgba(167, 232, 194, 0.397)"}}> Home </Link>
+            <Link to="/about-me" className="tablink" name="about-me" style={{backgroundColor: "rgba(244, 226, 171, 0.397)"}} > About Me </Link>
+            <Link to="/projects" className="tablink" style={{backgroundColor: "#DB99BB"}} > Projects </Link>
+            <Link to="/skills" className="tablink" style={{backgroundColor: "#ADD7F7"}} > Skills </Link>
+            <Link to="/art-gallery" className="tablink" style={{backgroundColor: "#DAFCB0"}} > Art Gallery</Link>
           </nav>
 
           <Switch className="routes">
