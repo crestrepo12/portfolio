@@ -16,39 +16,34 @@ class App extends Component {
         <Sidebar />
 
         <div className="page-container">
-          <nav id="navbar">
+          <nav id="navbar" className="shadow">
             <Link
               to="/"
               className="tablink"
-              style={{ backgroundColor: "rgba(167, 232, 194, 0.397)" }}
             >
               Home
             </Link>
             <Link
               to="/about-me"
               className="tablink"
-              style={{ backgroundColor: "rgba(244, 226, 171, 0.397)" }}
             >
               About Me
             </Link>
             <Link
               to="/projects"
               className="tablink"
-              style={{ backgroundColor: "#DB99BB" }}
             >
               Projects
             </Link>
             <Link
               to="/skills"
               className="tablink"
-              style={{ backgroundColor: "#ADD7F7" }}
             >
               Skills
             </Link>
             <Link
               to="/art-gallery"
               className="tablink"
-              style={{ backgroundColor: "#DAFCB0" }}
             >
               Art Gallery
             </Link>

@@ -19,6 +19,7 @@ class AboutMe extends Component {
           inclusive especially towards accessibility and building tools that are
           helpful for daily lives.
         </p>
+
       </div>
     );
   }

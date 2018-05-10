@@ -7,8 +7,35 @@
 }
 
 .content {
-  color: rgb(117, 117, 117);
+  /* color: #6bbaa7; */
+  color: #fba100;
   padding: 20px 20px;
+}
+
+button {
+  width: 275px;
+  height: 40px;
+  margin: 30px auto;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+button:hover {
+  -moz-box-shadow:     0 0 10px rgb(180, 180, 180);
+  -webkit-box-shadow:  0 0 10px rgb(180, 180, 180);
+  box-shadow:          0 0 10px rgb(180, 180, 180);
+}
+
+h1 {
+  color: #6bbaa7;
+}
+
+.shadow {
+  -moz-box-shadow:     0 0 10px rgb(180, 180, 180);
+  -webkit-box-shadow:  0 0 10px rgb(180, 180, 180);
+  box-shadow:          0 0 10px rgb(180, 180, 180);
 }
 
 /* --- Navigation bar --- */
@@ -17,12 +44,12 @@
 #navbar > a:visited,
 #navbar > a:hover,
 #navbar > a:active{
-  color: rgb(117, 117, 117);
+  color: white;
   text-decoration : none;
 }
 
 .tablink {
-  background-color: darkgrey;
+  background-color: #6c648b;
   color: white;
   float: left;
   border: none;
@@ -35,13 +62,12 @@
 
 .tablink:hover {
   color: white !important;
-  background-color: rgba(163, 163, 163, 0.616) !important;
+  background-color: #b6a19e !important;
 }
 
 /* --- Sidebar --- */
 #sidebar {
-  background-image: url(./images/colorful-puzzle.jpg);
-  background-position: center;
+  background-color: #6bbaa7;;
   width: 20%;
   position: fixed;
   height: 100vh;
@@ -53,7 +79,7 @@
 }
 
 img#picture-self {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 75px;
   margin-bottom: 20px;
@@ -67,10 +93,20 @@ img#picture-self {
 #sidebar > .contacts > a,
 #sidebar > .contacts > a:link,
 #sidebar > .contacts > a:visited,
-#sidebar > .contacts > a:hover {
+#sidebar > .contacts > a:hover,
+#sidebar > .contacts > a:active  {
   margin: 0 auto;
   margin-bottom: 10px;
   color: rgb(255, 255, 255);
+  cursor: default;
+}
+
+#sidebar > .contacts > a:hover {
+  -moz-box-shadow:     0 0 10px #fba100;
+  -webkit-box-shadow:  0 0 10px #fba100;
+  box-shadow:          0 0 10px #fba100;
+  background-color:  #fb9f00a8;
+  border-radius: 50px;
 }
 
 /* --- Page Container --- */
@@ -89,6 +125,28 @@ img#picture-self {
   height: 100vh;
   padding-top: 20%;
   text-align: center;
+}
+
+#home > button {
+  background-color: #6bbaa7;
+}
+
+#home > button > h3, 
+#home > button > a,
+#home > button > a:link,
+#home > button > a:visited,
+#home > button > a:hover,
+#home > button > a:active {
+  color: white;
+}
+
+#home > button > h3 {
+  display: flex;
+  margin: auto 0;
+}
+
+#home > button > a {
+  margin-left: 10px;
 }
 
 /* --- About Me --- */
@@ -136,4 +194,19 @@ img#picture-self {
 #art-gallery {
   height: 100vh;
   text-align: center;
+  overflow: scroll;
+}
+
+#art-work-container {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.art-work > img {
+  width: 300px;
+  margin: 20px
 }

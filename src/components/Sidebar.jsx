@@ -9,7 +9,7 @@ import solid from "@fortawesome/fontawesome-free-solid";
 class Sidebar extends Component {
   render() {
     return (
-      <div id="sidebar">
+      <div id="sidebar" className="shadow">
         <img
           id="picture-self"
           src="https://avatars0.githubusercontent.com/u/32101581?s=460&v=4"
