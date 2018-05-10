@@ -7,7 +7,6 @@
 }
 
 .content {
-  /* color: #6bbaa7; */
   color: #fba100;
   padding: 20px 20px;
 }
@@ -39,6 +38,10 @@ h1 {
 }
 
 /* --- Navigation bar --- */
+#navbar {
+  display: inline-flex;
+}
+
 #navbar > a,
 #navbar > a:link,
 #navbar > a:visited,
@@ -46,28 +49,29 @@ h1 {
 #navbar > a:active{
   color: white;
   text-decoration : none;
+
 }
 
 .tablink {
   background-color: #6c648b;
   color: white;
-  float: left;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
   border: none;
   outline: none;
-  text-align: center;
   padding: 14px 16px;
   font-size: 17px;
-  width: 16.85%;
 }
 
 .tablink:hover {
-  color: white !important;
-  background-color: #b6a19e !important;
+  color: white;
+  background-color: #b6a19e;
 }
 
 /* --- Sidebar --- */
 #sidebar {
-  background-color: #6bbaa7;;
+  background-color: #6bbaa7;
   width: 20%;
   position: fixed;
   height: 100vh;
@@ -123,31 +127,50 @@ img#picture-self {
 /* --- Home --- */
 #home {
   height: 100vh;
-  padding-top: 20%;
+  /* padding-top: 20%; */
+  /* margin-top: 20%; */
   text-align: center;
-}
-
-#home > button {
-  background-color: #6bbaa7;
-}
-
-#home > button > h3, 
-#home > button > a,
-#home > button > a:link,
-#home > button > a:visited,
-#home > button > a:hover,
-#home > button > a:active {
-  color: white;
-}
-
-#home > button > h3 {
   display: flex;
-  margin: auto 0;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#home > button > a {
-  margin-left: 10px;
+#home > .button {
+  background-color: #6bbaa7;
+  width: 275px;
+  height: 40px;
+  margin: 30px auto;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  border: none;
 }
+
+#home > a.button > h4, 
+#home > a.button,
+#home > a.button:link,
+#home > a.button:visited,
+#home > a.button:hover,
+#home > a.button:active {
+  color: white;
+  text-decoration: none;
+}
+
+#home > a.button:hover {
+  -moz-box-shadow:     0 0 10px rgb(180, 180, 180);
+  -webkit-box-shadow:  0 0 10px rgb(180, 180, 180);
+  box-shadow:          0 0 10px rgb(180, 180, 180);
+  cursor: default;
+}
+
+#home > a.button > h4 {
+  margin: 12px 10px;
+}
+
+#home > a.button > svg {
+  margin: 4px;
+}
+
 
 /* --- About Me --- */
 #about-me {

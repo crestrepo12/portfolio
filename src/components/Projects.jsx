@@ -5,6 +5,13 @@ class Projects extends Component {
     return (
       <div id="projects" className="content">
         <h1>Projects </h1>
+        <div className="projects-container">
+          <div className="project"><a href=""><img src="" alt=""/></a></div>
+          <div className="project"><a href=""><img src="" alt=""/></a></div>
+          <div className="project"><a href=""><img src="" alt=""/></a></div>
+          <div className="project"><a href=""><img src="" alt=""/></a></div>
+          <div className="project"><a href=""><img src="" alt=""/></a></div>
+        </div>
       </div>
     );
   }
