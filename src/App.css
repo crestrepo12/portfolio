@@ -27,7 +27,8 @@ button:hover {
   box-shadow:          0 0 10px rgb(180, 180, 180);
 }
 
-h1 {
+h1,
+h2 {
   color: #6bbaa7;
 }
 
@@ -127,8 +128,6 @@ img#picture-self {
 /* --- Home --- */
 #home {
   height: 100vh;
-  /* padding-top: 20%; */
-  /* margin-top: 20%; */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -189,6 +188,36 @@ img#picture-self {
 #projects {
   height: 100vh;
   text-align: center;
+  overflow: scroll;
+}
+
+#projects-container {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#projects-container > .project {
+  width: 500px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+#projects-container > .project > h2 {
+  text-decoration: underline;
+}
+
+#projects-container > .project > p {
+  padding: 10px; 
+}
+
+#projects-container > .project > a > img {
+  width: 400px;
+  margin: 10px;
+  border: solid 1px rgb(180, 180, 180);
 }
 
  /* --- Skills --- */
@@ -211,7 +240,6 @@ img#picture-self {
   width: 80px;
   margin: 40px
 }
-
 
 /* --- Art Gallery --- */
 #art-gallery {
