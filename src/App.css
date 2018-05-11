@@ -177,6 +177,12 @@ img#picture-self {
   margin: 4px;
 }
 
+#home > h1 {
+  font-size: 50px;
+}
+#home > h3 {
+  font-size: 25px;
+}
 
 /* --- About Me --- */
 #about-me {
@@ -189,6 +195,13 @@ img#picture-self {
   line-height: 40px;
   text-align: justify;
   margin: 0 50px;
+}
+
+.personal-pitch {
+  background-color: #6c648b69;
+  padding: 30px;
+  border-radius: 50px;
+  color: white;
 }
 
  /* --- Projects --- */
@@ -246,7 +259,10 @@ img#picture-self {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.89);
+  border-radius: 50px;
 }
+
 .icons {
   width: 80px;
   margin: 40px
