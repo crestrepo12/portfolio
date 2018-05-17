@@ -226,15 +226,24 @@ img#picture-self {
   margin-bottom: 30px;
 }
 
-#projects-container > .project > h2 {
-  text-decoration: underline;
-}
-
 #projects-container > .project > p {
   padding: 10px; 
 }
 
-#projects-container > .project > a > img {
+#projects-container > .project > p:first-of-type {
+  margin: 0 auto;
+}
+
+#projects-container > .project > p > a,
+#projects-container > .project > p > a:link,
+#projects-container > .project > p > a:visited,
+#projects-container > .project > p > a:hover,
+#projects-container > .project > p > a:active {
+  color: black;
+}
+
+
+#projects-container > .project > img {
   width: 400px;
   margin: 10px;
   border: solid 1px rgb(180, 180, 180);
@@ -250,6 +259,7 @@ img#picture-self {
   text-align: center;
   display: flex;
   flex-direction: column;
+  overflow: scroll;
 }
 
 #skills > #icon-container {

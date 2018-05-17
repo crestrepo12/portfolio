@@ -8,20 +8,23 @@ class Projects extends Component {
         <div id="projects-container">
           <div className="project shadow">
             <h2>Tutelage</h2>
-            <a href="https://github.com/Acostill/Tutelage">
-              <img src="/images/MentorPage.png" alt="tutelage search page" />
-            </a>
             <p>
-              React, CSS, HTML, Express, Postgres, BCrypt
+              <a href="https://tutelage-connect.herokuapp.com/">Live</a> |{" "}
+              <a href="https://github.com/Acostill/Tutelage">Repo</a>
             </p>
+            <img src="/images/MentorPage.png" alt="tutelage search page" className="project-img" />
+            <p>React, CSS, HTML, Express, Postgres, BCrypt</p>
           </div>
           <div className="project shadow">
-          <h2>[V]access NYC</h2>
-            <a href="https://github.com/davidyshin/VACCessNYC">
-              <img src="/images/vaccess.png" alt="vaccess home search page" />
-            </a>
+            <h2>[V]ACCESS NYC</h2>
             <p>
-              React, CSS, HTML, Express, Postgres, BCrypt, React Google Maps, NYC Open Data
+              <a href="https://vaccessnyc.netlify.com/">Live</a> |{" "}
+              <a href="https://github.com/davidyshin/VACCessNYC">Repo</a>
+            </p>
+            <img src="/images/vaccess.png" alt="vaccess home search page" className="project-img" />
+            <p>
+              React, CSS, HTML, Express, Postgres, BCrypt, React Google Maps,
+              NYC Open Data
             </p>
           </div>
           {/* <div className="project"><a href=""><img src="" alt=""/></a></div>
