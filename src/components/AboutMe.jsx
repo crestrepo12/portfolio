@@ -7,19 +7,19 @@ class AboutMe extends Component {
         <h1> About Me </h1>
 
         <p className="personal-pitch">
-          I am a Full Stack Web Developer at C4Q. I’ve worked in the social
-          services field for a few years and from there I realized I wanted to
-          do more for others. After having multiple discussions with my brothers
-          about the tech community, I gave javascript a try. I was intrigued by
-          other developers that built platforms to bring people together. I
-          began my search to find a school who believed in building an inclusive
-          community. From that research, is where I found C4Q. Throughout the
-          course I have come to realize how much closer I am to helping others.
-          I would like to use these skills to build sites that are more
-          inclusive especially towards accessibility and building tools that are
-          helpful for daily lives.
+          I am a Front End Web Developer at C4Q (Coalition for Queens). I
+          started my career in the social services field. From that experience
+          realized I wanted to do more for others especially on a larger scale.
+          I worked with people with cognitive and developmental disabilities who
+          were learning to communicate more effectively with others through apps
+          using devices like IPads. That is where my spark for web development
+          and tech accessibility ignited. When I went to my first tech
+          conference in NY, I was fascinated by other developers that built
+          platforms to bring people together. Throughout my Full Stack Web
+          Development Fellowship, I have come to realize how much closer I am to
+          helping others. I would like to use these skills to build tools that
+          are helpful and meaningful for daily use.
         </p>
-
       </div>
     );
   }
