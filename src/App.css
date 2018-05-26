@@ -188,6 +188,7 @@ img#picture-self {
 #about-me {
   height: 100vh;
   text-align: center;
+  overflow: scroll;
 }
 
 #about-me > p {

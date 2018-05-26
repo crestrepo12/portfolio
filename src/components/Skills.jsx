@@ -1,5 +1,4 @@
-import React, { Component, Fragment } from "react";
-import fontawesome from "@fortawesome/fontawesome";
+import React, { Component } from "react";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import brands from "@fortawesome/fontawesome-free-brands";
 import solid from "@fortawesome/fontawesome-free-solid";

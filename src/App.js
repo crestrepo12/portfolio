@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link, Switch, Route } from "react-router-dom";
-import logo from "./logo.svg";
 import "./App.css";
 import Sidebar from "./components/Sidebar";
 import Home from "./components/Home";
