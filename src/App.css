@@ -64,6 +64,7 @@ h2 {
   outline: none;
   padding: 14px 16px;
   font-size: 17px;
+  text-align: center;
 }
 
 .tablink:hover {
@@ -207,16 +208,16 @@ img#picture-self {
 }
 
 #projects-container {
-  width: 900px;
-  margin: 0 auto;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+
 }
 
 #projects-container > .project {
-  width: 500px;
+  width: 50%;
   border-radius: 10px;
   margin-bottom: 30px;
 }
@@ -239,7 +240,7 @@ img#picture-self {
 
 
 #projects-container > .project > img {
-  width: 400px;
+  width: 80%;
   margin: 10px;
   border: solid 1px rgb(180, 180, 180);
 }
@@ -264,7 +265,6 @@ img#picture-self {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color: rgba(255, 255, 255, 0.89);
   border-radius: 50px;
 }
 
@@ -281,15 +281,61 @@ img#picture-self {
 }
 
 #art-work-container {
-  width: 900px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 
-.art-work > img {
-  width: 300px;
+.art-work {
+  height: 330px;
   margin: 20px
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  #projects-container > .project {
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    #navbar {
+      display: inline-flex;
+      overflow: scroll;
+    }
+
+    #projects-container > .project {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    #about-me > p {
+      padding-top: 5%;
+      line-height: 40px;
+      margin: 0 2px;
+      text-align: unset;
+    }
+
+    #skills > #icon-container {
+      width: unset;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      /* justify-content: space-evenly; */
+      background-color: rgba(255, 255, 255, 0.89);
+      border-radius: 50px;
+    }
+
 }
