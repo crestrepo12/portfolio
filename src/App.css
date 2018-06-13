@@ -6,8 +6,9 @@
   display: inline-flex;
 }
 
+
 .content {
-  color: #fba100;
+  color: #3D9B8D;
   padding: 20px 20px;
 }
 
@@ -29,7 +30,7 @@ button:hover {
 
 h1,
 h2 {
-  color: #6bbaa7;
+  color: #3D9B8D;
 }
 
 .shadow {
@@ -37,13 +38,6 @@ h2 {
   -webkit-box-shadow:  0 0 10px rgb(180, 180, 180);
   box-shadow:          0 0 10px rgb(180, 180, 180);
 }
-
-/* .background-image {
-  background-image: url(https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
 
 /* --- Navigation bar --- */
 #navbar {
@@ -55,13 +49,13 @@ h2 {
 #navbar > a:visited,
 #navbar > a:hover,
 #navbar > a:active{
-  color: white;
+  /* color: #a9a9a9; */
   text-decoration : none;
 
 }
 
 .tablink {
-  background-color: #6c648b;
+  background-color: #C0C0C0;
   color: white;
   display: flex;
   justify-content: center;
@@ -73,13 +67,13 @@ h2 {
 }
 
 .tablink:hover {
-  color: white;
-  background-color: #b6a19e;
+  background-color: white;
+  color: #C0C0C0;
 }
 
 /* --- Sidebar --- */
 #sidebar {
-  background-color: #6bbaa7;
+  background-color: #4abdac;
   width: 20%;
   position: fixed;
   height: 100vh;
@@ -114,11 +108,11 @@ img#picture-self {
 }
 
 #sidebar > .contacts > a:hover {
-  -moz-box-shadow:     0 0 10px #fba100;
-  -webkit-box-shadow:  0 0 10px #fba100;
-  box-shadow:          0 0 10px #fba100;
-  background-color:  #fb9f00a8;
-  border-radius: 50px;
+  -moz-box-shadow:     0 0 60px #3D9B8D;
+  -webkit-box-shadow:  0 0 60px #3D9B8D;
+  box-shadow:          0 0 60px #3D9B8D;
+  background-color:  #3D9B8D;
+  border-radius: 50%;
 }
 
 /* --- Page Container --- */
@@ -142,7 +136,7 @@ img#picture-self {
 }
 
 #home > .button {
-  background-color: #6bbaa7;
+  background-color: #4abdac;
   width: 275px;
   height: 40px;
   margin: 30px auto;
@@ -199,7 +193,7 @@ img#picture-self {
 }
 
 .personal-pitch {
-  background-color: #6c648bcf;
+  background-color: #C0C0C0;
   padding: 30px;
   border-radius: 50px;
   color: white;
@@ -240,7 +234,7 @@ img#picture-self {
 #projects-container > .project > p > a:visited,
 #projects-container > .project > p > a:hover,
 #projects-container > .project > p > a:active {
-  color: black;
+  color: #29685E;
 }
 
 
