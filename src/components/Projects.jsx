@@ -16,7 +16,6 @@ class Projects extends Component {
             <img
               src="https://i.gyazo.com/eb0ccae7f7ee2b565be709b2e60fc514.png"
               alt="https://gyazo.com/eb0ccae7f7ee2b565be709b2e60fc514"
-              width="1280"
               className="project-img"
             />
             <p>React, CSS (Flexbox), Semantic UI React, Express, PostgreSQL</p>
