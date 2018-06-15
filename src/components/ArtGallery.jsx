@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class ArtGallery extends Component {
   render() {
     return (
-      <div id="art-gallery" className="content background-image">
+      <div id="art-gallery" className="content">
         <h1> Art Gallery </h1>
         <div id="art-work-container">
         

@@ -6,7 +6,7 @@ import solid from "@fortawesome/fontawesome-free-solid";
 class Skills extends Component {
   render() {
     return (
-      <div id="skills" className="content background-image">
+      <div id="skills" className="content">
         <h1>Skills</h1>
         <div id="icon-container">
           <div className="icons">

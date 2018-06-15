@@ -3,11 +3,11 @@ import React, { Component } from "react";
 class AboutMe extends Component {
   render() {
     return (
-      <div id="about-me" className="content background-image">
+      <div id="about-me" className="content">
         <h1> About Me </h1>
 
         <p className="personal-pitch">
-          I am a Front End Web Developer at C4Q (Coalition for Queens). I
+          I am a Full Stack Web Developer at C4Q (Coalition for Queens). I
           started my career in the social services field. From that experience
           realized I wanted to do more for others especially on a larger scale.
           I worked with people with cognitive and developmental disabilities who
