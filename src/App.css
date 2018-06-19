@@ -281,7 +281,6 @@ img#picture-self {
 }
 
 #art-work-container {
-  /* margin: 0 auto; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -341,7 +340,7 @@ img#picture-self {
       padding-top: 5%;
       line-height: 40px;
       margin: 0 2px;
-      text-align: unset;
+      text-align: start;
     }
 
     #skills > #icon-container {
@@ -352,6 +351,12 @@ img#picture-self {
       justify-content: center;
       background-color: rgba(255, 255, 255, 0.89);
       border-radius: 50px;
+    }
+
+    img.art-work {
+      width: 100%;
+      margin: 0;
+      object-fit: contain;
     }
 
 }
@@ -392,6 +397,17 @@ img#picture-self {
       justify-content: center;
       background-color: rgba(255, 255, 255, 0.89);
       border-radius: 50px;
+    }
+
+    img.art-work {
+      width: 100%;
+      margin: 10px;
+      object-fit: contain;
+    }
+
+    #sidebar > p {
+      font-size: .5em;
+      padding: 2px;
     }
 
 }
