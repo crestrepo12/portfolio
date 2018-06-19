@@ -304,14 +304,31 @@ img#picture-self {
 
 }
 
+/* -- Iphone 5 series -- */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     #navbar {
       display: inline-flex;
       overflow: scroll;
+    }
+
+    #sidebar > p {
+      font-size: .5em
+    }
+
+    #home > .button {
+      background-color: #4abdac;
+      width: 80%;
+      height: 40px;
+      margin: 30px auto;
+      padding: 3%;
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      border: none;
     }
 
     #projects-container > .project {
@@ -333,7 +350,46 @@ img#picture-self {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      /* justify-content: space-evenly; */
+      background-color: rgba(255, 255, 255, 0.89);
+      border-radius: 50px;
+    }
+
+}
+
+/* -- IPhone 6,7,8 series -- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    #navbar {
+      display: inline-flex;
+      overflow: scroll;
+    }
+
+    #sidebar > p {
+      font-size: .5em
+    }
+
+    #projects-container > .project {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    #about-me > p {
+      padding-top: 5%;
+      line-height: 40px;
+      margin: 0 2px;
+      text-align: unset;
+    }
+
+    #skills > #icon-container {
+      width: unset;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       background-color: rgba(255, 255, 255, 0.89);
       border-radius: 50px;
     }
