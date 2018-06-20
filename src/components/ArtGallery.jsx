@@ -19,7 +19,6 @@ class ArtGallery extends Component {
           <img src="../images/man-lying-figure-drawing.jpg" alt="10" className="art-work"/> 
           <img src="../images/monochrome-still-life-blue.jpg" alt="11" className="art-work"/>
           <img src="../images/monochrome-still-life-grey.jpg" alt="12" className="art-work"/>
-          <img src="../images/night_drive.jpg" alt="13" className="art-work"/>
           <img src="../images/pointillism-flowers.jpg" alt="14" className="art-work"/>
           <img src="../images/orange-lady-figure-drawing.jpg" alt="15" className="art-work"/>
           <img src="../images/palette_knife_plant.jpg" alt="16" className="art-work"/>
