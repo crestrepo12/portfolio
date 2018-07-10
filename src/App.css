@@ -39,6 +39,10 @@ h2 {
   box-shadow:          0 0 10px rgb(180, 180, 180);
 }
 
+#credit {
+  font-size: .5em;
+}
+
 /* --- Navigation bar --- */
 #navbar {
   display: inline-flex;
@@ -270,7 +274,7 @@ img#picture-self {
 
 .icons {
   width: 80px;
-  margin: 40px
+  margin: 40px;
 }
 
 /* --- Art Gallery --- */
