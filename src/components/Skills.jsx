@@ -30,6 +30,19 @@ class Skills extends Component {
           <div className="icons">
             <FontAwesomeIcon icon={["fab", "react"]} size="5x" /> React
           </div>
+          <div className="icons">
+            <img
+              src="images/postgresql-icon.png"
+              alt="icon of PostgreSQL"
+              style={{ width: "70px" }}
+            />{" "}
+            PostgreSQL
+          </div>
+          <div id="credit">
+            PostgreSQL icon made from{" "}
+            <a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> is
+            licensed by CC BY 3.0
+          </div>
         </div>
       </div>
     );
