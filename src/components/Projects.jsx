@@ -47,7 +47,7 @@ class Projects extends Component {
             />
             <p>
               React, CSS, Express, PostgreSQL, BCrypt, React Google Maps, NYC
-              Open Data
+              OpenData
             </p>
           </div>
         </div>

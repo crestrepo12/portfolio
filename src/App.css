@@ -53,7 +53,6 @@ h2 {
 #navbar > a:visited,
 #navbar > a:hover,
 #navbar > a:active{
-  /* color: #a9a9a9; */
   text-decoration : none;
 
 }
@@ -313,13 +312,28 @@ img#picture-self {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+
+    /* #navbar {
+      display: none;
+    } */
+    
     #navbar {
       display: inline-flex;
+      flex-direction: column;
       overflow: scroll;
+    } 
+   
+    #sidebar {
+      display: none;
     }
 
-    #sidebar > p {
-      font-size: .5em
+    /* #sidebar > p {
+      font-size: .5em;
+    } */
+
+    .page-container {
+      width: 100vw;
+      margin: unset;
     }
 
     #home > .button {
