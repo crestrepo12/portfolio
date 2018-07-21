@@ -3,6 +3,7 @@ import { Link, Switch, Route } from "react-router-dom";
 import "./App.css";
 import "./Media-queries.css";
 import Sidebar from "./components/Sidebar";
+import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
@@ -16,38 +17,7 @@ class App extends Component {
         <Sidebar />
 
         <div className="page-container">
-          <nav id="navbar" className="shadow">
-            <Link
-              to="/"
-              className="tablink"
-            >
-              Home
-            </Link>
-            <Link
-              to="/about-me"
-              className="tablink"
-            >
-              About Me
-            </Link>
-            <Link
-              to="/projects"
-              className="tablink"
-            >
-              Projects
-            </Link>
-            <Link
-              to="/skills"
-              className="tablink"
-            >
-              Skills
-            </Link>
-            <Link
-              to="/art-gallery"
-              className="tablink"
-            >
-              Art Gallery
-            </Link>
-          </nav>
+          <Navbar />
 
           <Switch className="routes">
             <Route exact path="/" component={Home} />
