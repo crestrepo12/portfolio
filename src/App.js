@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link, Switch, Route } from "react-router-dom";
 import "./App.css";
+import "./Media-queries.css";
 import Sidebar from "./components/Sidebar";
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
