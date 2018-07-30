@@ -8,7 +8,7 @@ class Home extends Component {
         <h1>Carolina Restrepo</h1>
         <h3>Full Stack Web Developer</h3>
 
-        <a href="https://drive.google.com/file/d/10F9IGS6xOD04PjxXovJ3n6uYN8zP0luN/view?usp=sharing" className="button">
+        <a href="https://drive.google.com/file/d/145ElYCSNqR9x2JHH8UevuvdFG7b1Vt1s/view?usp=sharing" className="button">
             <h4>RESUME</h4>
             <FontAwesomeIcon icon={["fas", "file-alt"]} size="2x" />
         </a>
