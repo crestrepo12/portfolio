@@ -20,7 +20,8 @@ class Sidebar extends Component {
           <FontAwesomeIcon icon={["fab", "github"]} size="3x"/></a>
           <a href="mailto:carolinarestrepo@ac.c4q.nyc">
           <FontAwesomeIcon icon={["fas", "envelope"]} size="3x"/></a>
-          <a href="https://drive.google.com/file/d/10F9IGS6xOD04PjxXovJ3n6uYN8zP0luN/view?usp=sharing">
+          {/* Link for resume */}
+          <a href="https://drive.google.com/file/d/145ElYCSNqR9x2JHH8UevuvdFG7b1Vt1s/view?usp=sharing">
           <FontAwesomeIcon icon={["fas", "file-alt"]} size="3x"/></a>
         </div>
         <p> Made by Carolina Restrepo </p>
