@@ -21,7 +21,7 @@ class Sidebar extends Component {
           <a href="mailto:carolinarestrepo@ac.c4q.nyc">
           <FontAwesomeIcon icon={["fas", "envelope"]} size="3x"/></a>
           {/* Link for resume */}
-          <a href="https://drive.google.com/file/d/145ElYCSNqR9x2JHH8UevuvdFG7b1Vt1s/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/14F8OGKYvbYGbjBrJznWZOcrLsEOIpbIa/view?usp=sharing">
           <FontAwesomeIcon icon={["fas", "file-alt"]} size="3x"/></a>
         </div>
         <p> Made by Carolina Restrepo </p>
