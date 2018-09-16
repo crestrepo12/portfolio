@@ -12,13 +12,13 @@ class AboutMe extends Component {
           realized I wanted to do more for others especially on a larger scale.
           I worked with people with cognitive and developmental disabilities who
           were learning to communicate more effectively with others through apps
-          using devices like IPads. That is where my spark for web development
+          using devices like iPads. That is where my spark for web development
           and tech accessibility ignited. When I went to my first tech
           conference in NY, I was fascinated by other developers that built
           platforms to bring people together. Throughout my Full Stack Web
           Development Fellowship, I have come to realize how much closer I am to
           helping others. I would like to use these skills to build tools that
-          are helpful and meaningful for daily use.
+          are helpful and meaningful.
         </p>
       </div>
     );
