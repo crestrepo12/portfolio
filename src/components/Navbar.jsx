@@ -1,11 +1,5 @@
 import React, { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
-// import {
-//   Accordion,
-//   AccordionItem,
-//   AccordionItemTitle,
-//   AccordionItemBody
-// } from "react-accessible-accordion";
 
 class Navbar extends Component {
   constructor() {
@@ -13,15 +7,16 @@ class Navbar extends Component {
 
     this.state = {
       buttonActive: false,
-      className: ""
+      className: "",
+      symbol: "+"
     };
   }
 
   toggleButton = e => {
-    console.log("does it work?");
     this.setState({
       buttonActive: !this.state.buttonActive,
-      className: this.state.className ? "" : "active"
+      className: this.state.className ? "" : "active",
+      symbol: this.state.className === "active" ? "+": "-"
     });
   };
 
@@ -64,7 +59,7 @@ class Navbar extends Component {
       <Fragment>
         <input
           type="submit"
-          value="Menu"
+          value={`Menu ${this.state.symbol}`}
           className={`accordion ${this.state.className}`}
           onClick={this.toggleButton}
         />
