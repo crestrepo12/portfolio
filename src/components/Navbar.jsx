@@ -57,12 +57,10 @@ class Navbar extends Component {
     }
     return (
       <Fragment>
-        <input
-          type="submit"
-          value={`Menu ${this.state.symbol}`}
+        <button
           className={`accordion ${this.state.className}`}
           onClick={this.toggleButton}
-        />
+        > {`Menu ${this.state.symbol}`} </button>
         <div id="navbar" className="panel" style={style}>
           <Link to="/" className="tablink">
             Home

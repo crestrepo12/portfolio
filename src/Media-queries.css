@@ -19,20 +19,25 @@
         width: 100vw
     }
     .accordion {
-        background-color: #eee;
-        color: #444;
-        cursor: pointer;
+        color: white;
+        background-color: #3D9B8D;
         padding: 18px;
+        text-align: center;
         width: 100%;
-        border: none;
-        text-align: left;
-        outline: none;
+        height: 60px;
+        border-style: none;
+        outline-offset: unset;
         font-size: 15px;
+        font-weight: 600;
         transition: 0.4s;
+        margin: unset;
     }
     .active,
     .accordion:hover {
-        background-color: #ccc;
+        border-style: none;
+        outline-offset: unset;
+        color: white;
+        background-color: rgba(61, 155, 141, 0.527);
     }
     .panel {
         padding: 0 18px;
