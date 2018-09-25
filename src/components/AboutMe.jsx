@@ -7,7 +7,7 @@ class AboutMe extends Component {
         <h1> About Me </h1>
 
         <p className="personal-pitch">
-          I am a Full Stack Web Developer at C4Q (Coalition for Queens). I
+          I am a Full Stack Web Developer graduate from Pursuit (formerly C4Q). I
           started my career in the social services field. From that experience
           realized I wanted to do more for others especially on a larger scale.
           I worked with people with cognitive and developmental disabilities who
