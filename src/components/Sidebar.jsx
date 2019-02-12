@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import brands from "@fortawesome/fontawesome-free-brands";
 import solid from "@fortawesome/fontawesome-free-solid";
-import resumeLink from "resumeLink";
+import resumeLink from "./resumeLink";
 
 class Sidebar extends Component {
   render() {
