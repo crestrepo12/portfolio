@@ -9,7 +9,7 @@ class Home extends Component {
         <h1>Carolina Restrepo</h1>
         <h3>Full Stack Web Developer</h3>
 
-        <a href={resumeLink}>
+        <a href={resumeLink} className="button">
             <h4>RESUME</h4>
             <FontAwesomeIcon icon={["fas", "file-alt"]} size="2x" />
         </a>
