@@ -1,6 +1,6 @@
 import React, { Component} from "react";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
-import resumeLink from "resumeLink";
+import resumeLink from "./resumeLink";
 
 class Home extends Component {
   render() {
